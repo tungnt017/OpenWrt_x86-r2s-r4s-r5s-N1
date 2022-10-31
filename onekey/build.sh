@@ -1,45 +1,4 @@
 #/bin/bash
-echo
-echo
-echo "本脚本仅适用于在Ubuntu环境下编译 https://github.com/kiddin9/OpenWrt_x86-r2s-r4s"
-echo
-echo
-sleep 2s
-sudo apt-get update
-sudo apt-get upgrade
-
-sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev patch python3 python2.7 unzip zlib1g-dev lib32gcc-s1 libc6-dev-i386 subversion flex uglifyjs gcc-multilib g++-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils libelf-dev autoconf automake libtool autopoint device-tree-compiler ccache xsltproc rename antlr3 gperf curl screen upx-ucl jq
-
-
-
-clear 
-echo
-echo 
-echo 
-echo "|*******************************************|"
-echo "|                                           |"
-echo "|                                           |"
-echo "|           基本环境部署完成......          |"
-echo "|                                           |"
-echo "|                                           |"
-echo "|*******************************************|"
-echo
-echo
-
-
-if [ "$USER" == "root" ]; then
-	echo
-	echo
-	echo "请勿使用root用户编译，换一个普通用户吧~~"
-	sleep 3s
-	exit 0
-fi
-
-
-
-
-
-rm -Rf openwrt
 
 echo "
 
