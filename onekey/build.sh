@@ -65,7 +65,7 @@ case $CHOOSE in
 	break
 	;;
 	2)
-		firmware="nanopi-r2s"
+		firmware="rockchip_armv8"
 	break
 	;;
 	3)
